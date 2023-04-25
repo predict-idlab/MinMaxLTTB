@@ -49,15 +49,13 @@ class MinMaxLTTB(AbstractSeriesAggregator):
             + ["category", "bool"],
         )
 
-    def _aggregate(
-        self, s: pd.Series, n_out: int, minmax_ratio: int = 4
-    ) -> pd.Series:
+    def _aggregate(self, s: pd.Series, n_out: int, minmax_ratio: int = 4) -> pd.Series:
         """Compute the aggregation of the series.
 
         .. Note::
             A minmax_ratio of 1 is equivalent to the MinMaxAggregator.
         """
         s = self.minmax._aggregate(s, n_out * minmax_ratio)
-        if len(s) <= n_out: # Return
+        if len(s) <= n_out:  # Return the minmax result if it is already small enough
             return s
         return self.lttb._aggregate(s, n_out)
