@@ -13,18 +13,13 @@ keywords = ["time-series", "visualization", "preselection", "data aggregation", 
 python = ">=3.8,<3.11"
 numpy = "^1.22"
 plotly-resampler = "0.8.1"
-# matplotlib = "^3.6.1"
-# scipy = "^1.9.2"
-# Werkzeug = "2.2.1"
-# seaborn = "^0.12.1"
 tqdm = "^4.64.1"
-# pyfunctional = "^1.4.3"
 fastparquet = "^0.8.3"
 pyarrow = "^10.0.0"
 kaleido = "0.2.0"
-# scikit-image = "^0.19.3"
-# bokeh = "^3.0.3"
-# selenium = "^4.8.0"
+scikit-image = "^0.20.0"
+pyfunctional = "^1.4.3"
+matplotlib = "^3.7.1"
 
 
 [tool.poetry.extras]
