@@ -20,7 +20,7 @@ The performance of `MinMaxLTTB` is assessed for single-core and multi-core execu
 We compare `MinMaxLTTB` with the C implementation that has been used in [`plotly-resampler`](https://github.com/predict-idlab/plotly-resampler) `<= 0.8.3.2`.
 
 <div align="center">
-<img src="gifs/performance.png" alt="teaser" width="65%"/>
+<img src="gifs/performance.png" alt="teaser" width="75%"/>
 <br></br>
 </div>
 
