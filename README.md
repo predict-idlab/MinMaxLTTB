@@ -1,5 +1,5 @@
 <div align="center">
-<h1>:racehorse: MinMaxLTTB: `TODO fix title` </h1>
+<h1>:racehorse: <b>MinMaxLTTB</b>: Leveraging MinMax-Preselection to Scale LTTB </h1>
 </div>
 
 <div align="center">
@@ -8,7 +8,7 @@
 </div>
 
 *Codebase & further details for the paper*:  
-> **TODO**  
+> **MinMaxLTTB: Leveraging MinMax-Preselection to Scale LTTB**  
 > Jeroen Van Der Donckt, Jonas Van Der Donckt
 
 <!-- **Preprint**: https://arxiv.org/abs/2304.00900 -->
@@ -28,7 +28,8 @@ The visual representativeness is assessed in accordance with https://arxiv.org/a
 </div>
 
 **insights**:
-- `TODO`: 
+- MinMaxLTTB does not degrade the visual representativeness of LTTB!
+- A low MinMax-preselection ratio $r_{ps} \gt 2 $ results in a high visual similarity to LTTB
 
 ---
 ## How is the repository structured?
