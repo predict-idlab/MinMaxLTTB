@@ -16,7 +16,20 @@
 
 ## Performance of `MinMaxLTTB`
 
-`TODO`
+The performance of `MinMaxLTTB` is assessed for single-core and multi-core execution of our implementation (see [`tsdownsample`](https://github.com/predict-idlab/tsdownsample)).
+We compare `MinMaxLTTB` with the C implementation that has been used in [`plotly-resampler`](https://github.com/predict-idlab/plotly-resampler) `<= 0.8.3.2`.
+
+<div align="center">
+<img src="gifs/performance.png" alt="teaser" width="65%"/>
+<br></br>
+</div>
+
+**insights**:
+- `MinMaxLTTB` is up to 10x faster than the `LTTB` C implementation in the single-core setting.
+- `MinMaxLTTB` is up to 30x faster than the `LTTB` C implementation in the multi-core setting.
+
+These benchmarks are performed on a machine with the following CPU: Intel Xeon E5-2650 v2 (32) @ 3.400GHz.
+
 
 ## Visual Representativeness of `MinMaxLTTB`
 
@@ -39,7 +52,7 @@ The visual representativeness is assessed in accordance with https://arxiv.org/a
 - Supplementary gifs are located in the `gifs` folder.
 - See [notebooks README](notebooks/) for the more details.
   - The `0.*` notebooks contain data parsing and figure generation.
-  - The `1.*` notebooks perform the core experiments (visual representativeness and visual stability).
+  - The `1.*` notebooks perform the core experiments (visual representativeness and performance benchmarks).
 - The `animations` folder contains html animations, which allow to inspect the phenomena in more detail.
 
 Folder structure
