@@ -42,7 +42,7 @@ The visual representativeness is assessed in accordance with https://arxiv.org/a
 
 **insights**:
 - MinMaxLTTB does not degrade the visual representativeness of LTTB!
-- A low MinMax-preselection ratio $r_{ps} \gt 2 $ results in a high visual similarity to LTTB
+- A low MinMax-preselection ratio $r_{ps} \gt 2$ results in a high visual similarity to LTTB
 
 ---
 ## How is the repository structured?
