@@ -11,7 +11,7 @@
 > **MinMaxLTTB: Leveraging MinMax-Preselection to Scale LTTB**  
 > Jeroen Van Der Donckt, Jonas Van Der Donckt
 
-<!-- **Preprint**: https://arxiv.org/abs/2304.00900 -->
+**Preprint**: https://arxiv.org/abs/2305.00332
 
 
 ## Performance of `MinMaxLTTB`
