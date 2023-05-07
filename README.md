@@ -11,8 +11,7 @@
 > **MinMaxLTTB: Leveraging MinMax-Preselection to Scale LTTB**  
 > Jeroen Van Der Donckt, Jonas Van Der Donckt
 
-**Preprint**: https://arxiv.org/abs/2305.00332
-
+**Preprint**: https://arxiv.org/abs/2305.00332 - see [cite](#cite) for bibtex!
 
 ## Performance of `MinMaxLTTB`
 
@@ -80,6 +79,19 @@ You can install the dependencies in your Python environment by executing the fol
 
 Make sure that you've extended the [path_conf.py](agg_utils/path_conf.py) file's hostname if statement with your machine's hostname and that you've configured the path to the UCR archive folder.
 
+## Cite
+
+**Preprint**: https://arxiv.org/abs/2305.00332
+
+If you use or build upon this work, please cite us via:
+```bibtex
+@article{van2023minmaxlttb,
+  title={MinMaxLTTB: Leveraging MinMax-Preselection to Scale LTTB},
+  author={Van Der Donckt, Jeroen and Van Der Donckt, Jonas and Rademaker, Michael and Van Hoecke, Sofie},
+  journal={arXiv preprint arXiv:2305.00332},
+  year={2023}
+}
+```
 
 ---
 
